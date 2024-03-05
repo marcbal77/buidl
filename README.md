@@ -1,3 +1,6 @@
+NOTE: THIS IS A PROJECT PORTFOLIO PAGE AND IN A DRAFT STATE
+
+You can download this repo and create your own with the following:
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

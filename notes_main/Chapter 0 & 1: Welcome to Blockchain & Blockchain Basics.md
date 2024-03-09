@@ -136,22 +136,47 @@ NEVER Share your Secret Recovery Phrase (or Seed Phrase or Pneumonic Phrase)
 
 NEVER use a wallet that has real funds in it for developing
 
-Can create multiple wallets within a wallet UI
+Create multiple copies of Secret Recovery Phrase for real life and hide them in multiple places - if using with real money
+
+Never Respond to anyone asking for your Secret Recovery (Seed) Phrase
+
+Can create multiple addresses or accounts within a wallet
 
 Each wallet will within a wallet UI on a network - like Ethereum - will have a different unique address.
 
 Etherscan.io - a block explorer to explore wallets, transaction hashes, and so on for blockchains.
 
+A block explorer is a tool to explore an address, transaction, or other activities regarding a blockchain, each chain and respective network should have a block explorer.
 
+The Secret Recovery Phrase allows anyone to recover a wallet associated with 1 or many accounts created within it. Thus, the Secret Recovery Phrase will cover any account created within that specific wallet and or other imported wallet, giving you access to all your accounts.
 
+Each account has both a public unique identifier and a private unique identifier (that should only be available to us). They are often called private keys.
+
+You never ever want to share private keys.
+
+Think of a private as a password for your account to create transactions.
+
+The difference between a Secret Recovery Phrase and the private key, is that a private key is only associated with 1 public key or 1 account and, thus, you could only access the one account, whereas, the Secret Recovery Phrase will give you access to all account (public keys) within a wallet.
+
+Ideally good to backup both Secret Recovery Phrases and Private Keys
 
 ￼
+
+Goes over Networks on the wallet UI: Ethereum Mainnet and other main nets are where real money is used, the course will not be using any main nets.
+
+Always show test networks when working in development (engage in settings)
+
+Shows Rinkeby Test Network
+
+Rinkeby and Koran are popular test networks in 2022 (Goerli / Holesky current 2024)
+
+Main Faucet: https://faucets.chain.link 
+
+Backup Faucet: https://sepoliafaucet.com/
 
 
 
            (00:59:00): Gas I: Introduction to Gas
-
-
 
 
 
@@ -172,12 +197,9 @@ Keccak-256 - this is what Ethereum uses as of 2022.
 
 
 
-
-
-
            (01:30:23): Gas II: Block Rewards & EIP 1559
 
 
 
-
            (01:39:33): High-Level Blockchain Fundamentals
+

@@ -1,4 +1,7 @@
-Lesson 0: Welcome To Blockchain
+Chapter 0 & 1: Welcome to Blockchain & Blockchain Basics
+
+Outline:
+00:00:00) Lesson 0: Welcome To Blockchain
 
 Best Practices
 
@@ -36,6 +39,8 @@ Smart Contract Platform vs Blockchain
 
 Dapp - Decentralized Application = multiple smart contracts
 
+￼
+
 Smart Contracts create trust minimized agreements and give rise to unbreakable promises
 
            (00:18:26): The purpose of Smart Contracts
@@ -55,7 +60,7 @@ Wrong Incentives
 
 Systems in place to mitigate issues are human error prone and can take too long to fix in legal systems, often making the legal process too expensive or time consuming to achieve what was needed in the first place - had an agreement been handled correctly
 
-***A Smart Contract is an agreement, contract, or set of instructions, that is deployed on a decentralized blockchain
+*** A Smart Contract is an agreement, contract, or set of instructions, that is deployed on a decentralized blockchain
 
 - Immutable: Cannot be altered (has finality)
 - Automatically executes - code executed by decentralized collective (like a group of people running software with the same rules). This means no one entity can alter or change the terms of the arrangement.
@@ -73,7 +78,7 @@ DEX’s - decentralized exchanges: no central body that can flip a switch and bl
 
 Any example in history where trust is required, smart contracts can be applied.
 
-Current Web and Products:Brand Based
+Current Web and Products: Brand Based
 
 Need to shift to Math Based
 ￼
@@ -119,7 +124,13 @@ What have Smart Contracts done so far?
 	- DAO’s = Decentralized Anonymous Organizations
 	- NFT’s = Non-Fungible Tokens
 
+￼
+
            (00:39:17): Your First Transaction
+
+Sets Up Metamask for a Wallet
+
+https://support.metamask.io/hc/en-us/articles/360015489591-Basic-Safety-and-Security-Tips-for-MetaMask 
 
 NEVER Share your Secret Recovery Phrase (or Seed Phrase or Pneumonic Phrase)
 
@@ -131,9 +142,21 @@ Each wallet will within a wallet UI on a network - like Ethereum - will have a d
 
 Etherscan.io - a block explorer to explore wallets, transaction hashes, and so on for blockchains.
 
+
+
+
+￼
+
+
+
            (00:59:00): Gas I: Introduction to Gas
 
+
+
+
+
            (01:05:32): How do Blockchains work?
+
 
 Hash: a unique fixed length string, meant to identify a piece of data. They are created by placing said data into a “hash function”
 
@@ -142,10 +165,19 @@ SHA - Secure Hash Algorithm, a family of standards, released by NIST (2015).
 
 SHA 256
 
+
 Keccak-256 - this is what Ethereum uses as of 2022.
 
            (01:22:56): Signing Transactions
 
+
+
+
+
+
            (01:30:23): Gas II: Block Rewards & EIP 1559
+
+
+
 
            (01:39:33): High-Level Blockchain Fundamentals

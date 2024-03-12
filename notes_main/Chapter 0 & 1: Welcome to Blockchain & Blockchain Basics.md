@@ -60,7 +60,7 @@ Wrong Incentives
 
 Systems in place to mitigate issues are human error prone and can take too long to fix in legal systems, often making the legal process too expensive or time consuming to achieve what was needed in the first place - had an agreement been handled correctly
 
-*** A Smart Contract is an agreement, contract, or set of instructions, that is deployed on a decentralized blockchain
+***A Smart Contract is an agreement, contract, or set of instructions, that is deployed on a decentralized blockchain
 
 - Immutable: Cannot be altered (has finality)
 - Automatically executes - code executed by decentralized collective (like a group of people running software with the same rules). This means no one entity can alter or change the terms of the arrangement.
@@ -78,7 +78,7 @@ DEX’s - decentralized exchanges: no central body that can flip a switch and bl
 
 Any example in history where trust is required, smart contracts can be applied.
 
-Current Web and Products: Brand Based
+Current Web and Products:Brand Based
 
 Need to shift to Math Based
 ￼
@@ -202,4 +202,3 @@ Keccak-256 - this is what Ethereum uses as of 2022.
 
 
            (01:39:33): High-Level Blockchain Fundamentals
-

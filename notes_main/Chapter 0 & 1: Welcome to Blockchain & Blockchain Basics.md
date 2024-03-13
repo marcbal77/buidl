@@ -195,18 +195,35 @@ To: Payee Wallet (Public Address) - the person receiving the money in the transa
 
 Note: you can click and see the both wallet addresses, what they hold and more
 
-Value: The value being transacted in Ether and fiat value. Note: You can click the fiat value if available) to see historical value at the time of transaction.
+Value: The value being transacted in ether and fiat value. Note: You can click the fiat value (if available) to see historical value at the time of transaction.
 
-Amount paid to process the transaction in Ether and, in parentheses, in terms of fiat value.
+Transaction Fee: Amount paid to process the transaction in Ether and, in parentheses, in terms of fiat value.
 
 Gas Price: Cost per unit of gas spent for the transaction, in Ether and Gwei.
 
 Note: The higher the Gas Price, the higher the chance of being included in the block
 
-
            (00:59:00): Gas I: Introduction to Gas
 
+Transaction Fee: (Block Base Fee per Gas + MaxPriorityFee per Gas) * Gas Used
 
+When a user makes a transaction, the “miners” or “validators” make a small fee - this fee acts a payment to continue to incentivize people to continue running nodes.
+
+The fee is based off of how much gas you use.
+
+Gas: A unit of computational measurement : the more complex your transaction is the more gas you have to pay.
+
+Depending on how much gas you use, determines how expensive the transaction fee is.
+
+Gas Usage by Transaction (Txn) * Gas Price = Transaction Fee
+
+So the sender pays the value sent and the transaction fee to the network. The receiver only receives the value.
+
+Every blockchain has a different way of calculating how much gas is used per a transaction and the rate.
+
+Anytime you make a transaction on the blockchain, you have to pay some gas.
+
+Covers example in Metamask, since testnet ether between two wallets and discusses
 
            (01:05:32): How do Blockchains work?
 

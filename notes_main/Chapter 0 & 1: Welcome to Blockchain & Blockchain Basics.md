@@ -174,6 +174,34 @@ Main Faucet: https://faucets.chain.link 
 
 Backup Faucet: https://sepoliafaucet.com/
 
+Using faucets, you can get test coins and tokens to test with
+
+00:56:45-1:05:32: Review Block Explorer and the details of transactions
+
+It’s essential to understand block explorer and examining transactions to understand what is going on in the ecosystem
+
+You can also check the transaction hashes for more details
+
+There’s first a unique transaction hash - it identifies one transaction and only one, and is not known to be reused ever in any blockchain system thus far.
+
+There’s also a Status Code, which provides a status of what is happening and or has happened for a transaction: Success or Failure
+
+Block Number: Which block the transaction was included in
+
+Timestamp: When transaction occurred
+
+From: Payer Wallet (Public Address) - the person send the money in the transaction
+To: Payee Wallet (Public Address) - the person receiving the money in the transaction
+
+Note: you can click and see the both wallet addresses, what they hold and more
+
+Value: The value being transacted in Ether and fiat value. Note: You can click the fiat value if available) to see historical value at the time of transaction.
+
+Amount paid to process the transaction in Ether and, in parentheses, in terms of fiat value.
+
+Gas Price: Cost per unit of gas spent for the transaction, in Ether and Gwei.
+
+Note: The higher the Gas Price, the higher the chance of being included in the block
 
 
            (00:59:00): Gas I: Introduction to Gas
@@ -202,3 +230,4 @@ Keccak-256 - this is what Ethereum uses as of 2022.
 
 
            (01:39:33): High-Level Blockchain Fundamentals
+

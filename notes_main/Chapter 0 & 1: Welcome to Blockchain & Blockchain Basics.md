@@ -227,6 +227,9 @@ Covers example in Metamask, since testnet ether between two wallets and discusse
 
            (01:05:32): How do Blockchains work?
 
+Reference: https://andersbrownworth.com/ and demo how blockchains work
+
+https://andersbrownworth.com/blockchain/block 
 
 Hash: a unique fixed length string, meant to identify a piece of data. They are created by placing said data into a “hash function”
 

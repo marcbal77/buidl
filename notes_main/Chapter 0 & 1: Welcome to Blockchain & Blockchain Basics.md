@@ -60,7 +60,7 @@ Wrong Incentives
 
 Systems in place to mitigate issues are human error prone and can take too long to fix in legal systems, often making the legal process too expensive or time consuming to achieve what was needed in the first place - had an agreement been handled correctly
 
-*** A Smart Contract is an agreement, contract, or set of instructions, that is deployed on a decentralized blockchain
+***A Smart Contract is an agreement, contract, or set of instructions, that is deployed on a decentralized blockchain
 
 - Immutable: Cannot be altered (has finality)
 - Automatically executes - code executed by decentralized collective (like a group of people running software with the same rules). This means no one entity can alter or change the terms of the arrangement.
@@ -78,7 +78,7 @@ DEX’s - decentralized exchanges: no central body that can flip a switch and bl
 
 Any example in history where trust is required, smart contracts can be applied.
 
-Current Web and Products: Brand Based
+Current Web and Products:Brand Based
 
 Need to shift to Math Based
 ￼
@@ -191,7 +191,7 @@ Block Number: Which block the transaction was included in
 Timestamp: When transaction occurred
 
 From: Payer Wallet (Public Address) - the person send the money in the transaction
- To: Payee Wallet (Public Address) - the person receiving the money in the transaction
+To: Payee Wallet (Public Address) - the person receiving the money in the transaction
 
 Note: you can click and see the both wallet addresses, what they hold and more
 
@@ -244,7 +244,7 @@ Covers the concept of hash
 
 Then transitions to the concept of a block
 
-A Block is composed of:  A block number, a nonce, and data, represented by a hash
+A Block is composed of:A block number, a nonce, and data, represented by a hash
 
 Genesis Block: the first block in the blockchain
 
@@ -252,8 +252,18 @@ Hash —> Data + Unique Hash #
 
 Block —> Block #, Nonce, Data, Hash # 
 
+
+
            (01:22:56): Signing Transactions
 
+Private Key:
+Only known to the key holder, it's used to "sign" transactions.
+
+Bitcoin uses an Elliptic Curve Digital Signature Algorithm (ECDSA) - Digital Signature Algorithm
+
+With public keys, you want it exposed for those you are transacting with.
+
+You use a private key to digitally sign transactions.
 
 
            (01:30:23): Gas II: Block Rewards & EIP 1559

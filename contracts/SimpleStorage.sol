@@ -10,21 +10,7 @@ pragma solidity ^0.8.7; //0.8.12 is another reliable version and there are more
 // a compiler will take the above human readable version and convert it into computer byte code
 
 contract SimpleStorage {
-    // contract is a keyword in solidity that tells the compiler the following is a contract
-
-    // remix has a green checkmark which tell you a contract or code has successfully been compiled
-
-    // Most common Solidity Types are: boolean (true/false), uint(unsigned integer), address, bytes (lower level type)
-    bool hasFavoriteNumber = true;
-
-    uint16 favoriteNumber = 123;
-    // if you don't specify the uint and number of bits,up to 256 - should be explicit for memory savings
-
-    string favoriteNumberInText = "Five"; // represent words
-
-    int256 favoriteInt = -5;
-
-    address myAddress = 0xb794f5ea0ba39494ce839613fffba74279579268;
-
-    bytes2 favoriteBytes = "cat";
+    // This gets initialized to zero!
+    // <- this means that this section is a comment
+    uint256 favoriteNumber; 
 }

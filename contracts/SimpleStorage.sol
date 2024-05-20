@@ -21,5 +21,10 @@ contract SimpleStorage {
     // for test environment utilize JavaScript VM (London) - a fake local blockchain on remix that allows
     // a user to simulate transactions really quickly without having to wait to go through a testnet
         favoriteNumber = _favoriteNumber;
+        uint256 testVar = 5;
+    }
+
+    function retrieve() public view returns(uint256){
+        return favoriteNumber;
     }
 }

@@ -1,0 +1,29 @@
+(02:01:16) Lesson 2: Welcome to Remix! Simple Storage
+
+           (02:05:17): Setting Up Your first Contract
+
+           (02:12:29): Basic Solidity - Types
+
+           (02:18:42): Basic Solidity - Functions
+
+Any time you deploy or change something on-chain, including making a new contract, it happens in a transaction.
+
+Deploying a contract is modifying the blockchain to have the deployed contract and modifying the state of the blockchain.
+
+The remix fake accounts will simulate locally a transaction
+
+Visibility
+
+Function Visibility: Solidity knows two kinds of function calls: external ones that do create an actual EVM message call and internal ones that do not. Furthermore, internal functions can be made inaccessible to derived contracts. This gives rise to four types of visibility for functions. 
+
+NOTE: When you do NOT give a visibility to functions or variables they automatically get deployed as internal.
+
+``external`` 
+
+``public`` Public functions are part of the contract interface and can be either called internally or via message calls. Essentially, a getter function is created to return the function which is being made “public.”
+
+``internal`` Internal functions can only be accessed from within the current contract or contracts deriving from it. They cannot be accessed externally. Since they are not exposed to the outside through the contract’s ABI, they can take parameters of internal types like mappings or storage references. Contracts derived from a current contract are often called children contracts.
+
+``private`` This is constraining a function to a contract, so that only the contract specified with visibility of private can utilize that function. Private functions are like internal ones but they are not visible in derived contracts.
+
+Note: Making something private or internal only prevents other contracts from reading or modifying the information, but it will still be visible to the whole world outside of the blockchain.

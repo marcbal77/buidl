@@ -12,14 +12,15 @@ pragma solidity ^0.8.7; //0.8.12 is another reliable version and there are more
 contract SimpleStorage {
     // This gets initialized to zero!
     // <- this means that this section is a comment
-    uint256 public favoriteNumber; 
+    uint256 favoriteNumber; 
     // unint256 favorite is the same as uint256 favoriteNumber = 0;
-    People public person = People({favoriteNumber: 2, name: "Murphy"});
 
     struct People {
         uint256 favoriteNumber;
         string name;
     }
+
+    People[] public people;
 
     // functions or methods are a modules that execute some specific set of instructions for us when called
     function store(uint256 _favoriteNumber) public {
@@ -35,5 +36,7 @@ contract SimpleStorage {
         return favoriteNumber;
     }
 
-
+    function addPerson(string memory _name, uint256 _favoriteNumber) public {
+        people.push(People(_favoriteNumber, _name));
+    }
 }

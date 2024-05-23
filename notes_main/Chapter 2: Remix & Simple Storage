@@ -27,3 +27,27 @@ NOTE: When you do NOT give a visibility to functions or variables they automatic
 ``private`` This is constraining a function to a contract, so that only the contract specified with visibility of private can utilize that function. Private functions are like internal ones but they are not visible in derived contracts.
 
 Note: Making something private or internal only prevents other contracts from reading or modifying the information, but it will still be visible to the whole world outside of the blockchain.
+
+Gas Example, the more stuff you do, the more computation required, then the more gas that you’re going to cost to execute a transaction.
+
+Scope: Often refer to what are inside the curly brackets.
+
+    // keywords view and pure notate a function that doesn't have to spend gas to run - when called alone, they do not cost gas
+    // view or pure functions disallow any modification of state
+
+If a gas calling function calls a view or pure function that is the only time it will cost gas
+
+           (02:35:30): Basic Solidity - Arrays & Structs
+
+In Solidity, a struct is a custom data type that allows you to group together multiple variables under a single type. It's similar to structures in other programming languages like C or C++. Structs are particularly useful for organizing complex data in a readable and manageable wa
+
+1. Struct Declaration: Declares the structure of the data type.
+2. State Variables: Structs can be used as state variables in a contract.
+3. Arrays and Mappings: Structs can be stored in arrays or mappings for more complex data storage.
+4. Memory vs Storage: When passing structs within functions, you need to specify if they are in memory or storage. memory is temporary and storage is persistent.
+
+Arrays: a way to store a list or sequence of objects 
+
+Dynamic array: size of the array isn’t given at the array initialization. The size of an array can grow and shrink as values are added and subtracted.
+
+           (02:45:34): Basic Solidity - Errors & Warnings

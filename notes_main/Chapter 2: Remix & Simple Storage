@@ -51,3 +51,20 @@ Arrays: a way to store a list or sequence of objects
 Dynamic array: size of the array isn’t given at the array initialization. The size of an array can grow and shrink as values are added and subtracted.
 
            (02:45:34): Basic Solidity - Errors & Warnings
+
+           (02:46:35): Basic Solidity - Memory, Storage & Calldata(Intro)
+
+Layout of State Variables in Storage
+State variables of contracts are stored in storage in a compact way such that multiple values sometimes use the same storage slot. Except for dynamically-sized arrays and mappings (see below), data is stored contiguously item after item starting with the first state variable, which is stored in slot 0. For each variable, a size in bytes is determined according to its type. Multiple, contiguous items that need less than 32 bytes are packed into a single storage slot if possible, according to the following rules:
+
+The first item in a storage slot is stored lower-order aligned.
+
+Value types use only as many bytes as are necessary to store them.
+
+If a value type does not fit the remaining part of a storage slot, it is stored in the next storage slot.
+
+Structs and array data always start a new slot and their items are packed tightly according to these rules.
+
+Items following struct or array data always start a new storage slot.
+
+For contracts that use inheritance, the ordering of state variables is determined by the C3-linearized order of contracts starting with the most base-ward contract. If allowed by the above rules, state variables from different contracts do share the same storage slot.
